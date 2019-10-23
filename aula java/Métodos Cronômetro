@@ -1,1 +1,24 @@
+import javax.swing.JOptionPane;
 
+public class Cronos1 {
+	public static void main (String[] args) {
+	// joao
+	int tmp;
+		tmp=Integer.parseInt(JOptionPane.showInputDialog(null,"Digite o TEMPO "));
+            //declarando s= 0
+		for(int s=0;s<=tmp;s++) {
+			System.out.println(s);
+		}
+		        // recebe valor tmp
+		for(int s=tmp;s>=0;s--) {
+			System.out.println(s);
+		}
+		for(int s=tmp;s>=0;s-=2) {
+			System.out.println(s);
+			
+		}
+	JOptionPane.showMessageDialog(null, "Tempo: "+ tmp);
+	
+	}
+	
+}
